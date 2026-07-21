@@ -22,11 +22,11 @@ npm run preview # preview the production build locally
 
 ## How to customise
 
-| What to change            | Edit this file                     |
-| ------------------------- | ---------------------------------- |
-| Contact details / brand   | `src/data/siteConfig.js`           |
-| Projects (add/edit/price) | `src/data/projects.js`             |
-| Colours & styling         | `src/index.css` (`:root` at top)   |
+| What to change            | Edit this file                   |
+| ------------------------- | -------------------------------- |
+| Contact details / brand   | `src/data/siteConfig.js`         |
+| Projects (add/edit/price) | `src/data/projects.js`           |
+| Colours & styling         | `src/index.css` (`:root` at top) |
 
 Each project in `src/data/projects.js` has a `price` field (a plain number in
 INR) and fields for title, category, tech tags, description, features and
@@ -40,7 +40,7 @@ deliverables. Add a new object to the array to add a new project card.
    git add .
    git commit -m "Initial commit: college project showcase"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo>.git
+   git remote add origin https://github.com/Venkat4655/CollegeProject.git
    git push -u origin main
    ```
 2. Go to [vercel.com](https://vercel.com) → **Add New → Project** → import the
